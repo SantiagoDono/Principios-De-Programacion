@@ -28,8 +28,8 @@ int main()
         contador --;
 
     }
-    cout << " el numero mas grande ingresado es: " << mayor << endl;
-    cout << " el numero mas chico ingresado es: " << menor << endl;
+    cout << " El numero mas grande ingresado es: " << mayor << endl;
+    cout << " El numero mas chico ingresado es: " << menor << endl;
     return 0;
     
 }
