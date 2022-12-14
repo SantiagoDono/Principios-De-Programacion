@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 using namespace std;
+//Ejercicio 17) Leer 20 letras minúsculas e imprimir la cantidad de cada vocal encontrada
 int main()
 {
 	char letra;
