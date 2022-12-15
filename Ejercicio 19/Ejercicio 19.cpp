@@ -1,28 +1,27 @@
-// Ejercicio 18.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+// Ejercicio 19.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
 
 #include <iostream>
-#include <stdlib.h>
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+
+//Ejercicio 19 El usuario ahora ingresa varias líneas con minúsculas y espacios, terminando en un punto.Indicar cuántas palabras se escribieron en total
 using namespace std;
 
 int main()
 {
     char letra;
-    int cont = 0;
-	cout << "ingrese una oracion y de enter para saber cuantas palabras escribio ";
-	letra = getchar();
-	if (letra != '\n') {
-		cont = 1;
-		do{
-			letra = getchar();
-			if (letra == ' ') {
-				cont++;
-			}
-	
-		} while (letra != '\n');
-	}
-	cout << "Hay un total de: " << cont << " palabras";
+    int ContP = 1;
+	cout << "ingrese el texto que quiera: \n";
+	do
+	{
+		letra = getchar();
+		if (letra == ' ' || letra =='\n') {
+			ContP++;
+		}
+		
+	} while (letra != '.');
+	cout << " Hay un total de: " << ContP << "palabras ";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
