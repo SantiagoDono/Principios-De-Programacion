@@ -4,16 +4,42 @@
 using namespace std;
 int main()
 {
-    char letra;
-    int A, E, I, O, U;
-    cout << "ingrese una linea con minusculas, puntos y espacios, que tenga dos puntos seguidos:" << endl;
-    cin >> letra;
-    do{
-        if(letra == '.')
-            if (letra == ',') {
-                cout << "bien";
-            }
+ char actual,anterior ='n',salir='N';
+ int contA = 0, contE = 0, contI = 0, contO = 0, contU = 0, otras = 0;
+ cout << "ingrese una oracion que termine en dos puntos seguidos" << endl;
+ do
+ {
+	 actual = getchar();
+	 switch (actual)
+	 {
+	 case 'a':
+		 contA++;
+		 break;
+	 case 'e':
+		 contE++;
+		 break;
+	 case 'i':
+		 contI++;
+		 break;
+	 case 'o':
+		 contO++;
+		 break;
+	 case'u':
+		 contU++;
+		 break;
+	 case'.':
+		 if (anterior == '.')
+		 {
+			 salir = 's';
+		 }break;
+	 default:
+		 otras++;
+		 break;
+	 }
+	 anterior = actual;
 
-    } while (letra != '\n');
+ }while (salir =='N');
+ cout << "hay " << contA << " A.\n" << "Hay " << contE << " E.\n" << "Hay " << contI << " I.\n" << "Hay " << contO << " O. \n" << "Hay " << contU << " U.\n" << "Hay " << otras << " que no son vocales." << endl;
+ return 0;
 }
 
