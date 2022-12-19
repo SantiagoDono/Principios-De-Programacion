@@ -26,13 +26,17 @@ int main()
 	cout << '\n' << endl;
 
 	cout << "imprimimos el abecedario: " << endl;
+
 	char letra[26];
+
 	for (int i = 0; i <26 ; i++)
 	{
 		 letra[i]='a' + i;
 		 cout << letra[i] << ' ';
 	}
+
 	cout << "\nlo imprimimos al reves! " << endl;
+
 	for (int pos = 25; pos >-1; pos--)
 	{
 		cout << letra[pos] << ' ';
