@@ -45,6 +45,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ejercicio 29", "ejercicio 2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clase 4 ejercicio 30", "clase 4 ejercicio 30\clase 4 ejercicio 30.vcxproj", "{CD80BD76-1EE4-40AF-B3DF-81B65A505EE0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clase 5 strings y matrices", "Clase 5 strings y matrices\Clase 5 strings y matrices.vcxproj", "{DD56E0D1-3D89-417B-A604-52A1A5D27D64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrices", "Matrices\Matrices.vcxproj", "{B16FF82E-480A-4850-8FB8-12B95DC67F74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +225,22 @@ Global
 		{CD80BD76-1EE4-40AF-B3DF-81B65A505EE0}.Release|x64.Build.0 = Release|x64
 		{CD80BD76-1EE4-40AF-B3DF-81B65A505EE0}.Release|x86.ActiveCfg = Release|Win32
 		{CD80BD76-1EE4-40AF-B3DF-81B65A505EE0}.Release|x86.Build.0 = Release|Win32
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Debug|x64.ActiveCfg = Debug|x64
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Debug|x64.Build.0 = Debug|x64
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Debug|x86.Build.0 = Debug|Win32
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Release|x64.ActiveCfg = Release|x64
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Release|x64.Build.0 = Release|x64
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Release|x86.ActiveCfg = Release|Win32
+		{DD56E0D1-3D89-417B-A604-52A1A5D27D64}.Release|x86.Build.0 = Release|Win32
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Debug|x64.ActiveCfg = Debug|x64
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Debug|x64.Build.0 = Debug|x64
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Debug|x86.ActiveCfg = Debug|Win32
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Debug|x86.Build.0 = Debug|Win32
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x64.ActiveCfg = Release|x64
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x64.Build.0 = Release|x64
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x86.ActiveCfg = Release|Win32
+		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
