@@ -47,7 +47,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clase 4 ejercicio 30", "cla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clase 5 strings y matrices", "Clase 5 strings y matrices\Clase 5 strings y matrices.vcxproj", "{DD56E0D1-3D89-417B-A604-52A1A5D27D64}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrices", "Matrices\Matrices.vcxproj", "{B16FF82E-480A-4850-8FB8-12B95DC67F74}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clase 5 matrices", "Matrices\Matrices.vcxproj", "{B16FF82E-480A-4850-8FB8-12B95DC67F74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clase 5 Ejercicio 36", "Clase 5 Ejercicio 36\Clase 5 Ejercicio 36.vcxproj", "{9959D0F2-807B-4F34-A528-13D8938737B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -241,6 +243,14 @@ Global
 		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x64.Build.0 = Release|x64
 		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x86.ActiveCfg = Release|Win32
 		{B16FF82E-480A-4850-8FB8-12B95DC67F74}.Release|x86.Build.0 = Release|Win32
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Debug|x64.ActiveCfg = Debug|x64
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Debug|x64.Build.0 = Debug|x64
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Debug|x86.Build.0 = Debug|Win32
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Release|x64.ActiveCfg = Release|x64
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Release|x64.Build.0 = Release|x64
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Release|x86.ActiveCfg = Release|Win32
+		{9959D0F2-807B-4F34-A528-13D8938737B7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,6 +44,25 @@ int main()
 		}
 		printf("\n");
 	}
+	//SEGUIR EN 1:25:37
+	printf("\n lo giramos 90 grados. \n");
+	for (pos1 = 0; pos1 < 3; pos1++)
+	{
+		for (pos = 2; pos >=0; pos--) {
+			printf("|%d| ", matriz[pos][pos1]);
+		}
+		printf("\n");
+	}
+
+	printf("\n lo giramos 180 grados. \n");
+	for (pos = 2; pos >=0; pos--)
+	{
+		for (pos1 = 2; pos1 >= 0; pos1--) {
+			printf("|%d| ", matriz[pos][pos1]);
+		}
+		printf("\n");
+	}
+	
 
 	return 0;
 }
