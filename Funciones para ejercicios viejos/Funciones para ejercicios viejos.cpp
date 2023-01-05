@@ -49,16 +49,51 @@ int divisores(int numero) {
         divisor++;
         if (numero % divisor == 0) {
             cout << divisor << " ";
-        }
-        
-
-        
+        } 
     }
     return divisor;
 }
+
+int menor(int numero1, int numero2) {
+    int resultado = 0;
+    if (numero1 < numero2) {
+        resultado = numero1;
+        cout << "El numero mas chico es: " << resultado;
+
+    } else
+    if(numero1 == numero2){
+        cout << "Ambos numeros son iguales";
+    }
+    else {
+        resultado = numero2;
+        cout << "El numero mas chico es: " << resultado;
+    }
+    return resultado;
+}
+void primo(int numero) {
+    int divisor = 1,cont = 0,resto = 0;
+    do {
+        resto = numero % divisor;
+        if (resto ==0) {
+            cont++;
+            divisor++;
+        }
+        else {
+            divisor++;
+        }
+    } while (divisor <= numero and cont<2);
+    if (cont == 2) {
+        cout << numero << " es primo";
+    }
+    else {
+        cout << numero << " no es primo";
+    }
+}
+
+//Seguir en el minuto 50: me quedan las funciones del indicar el menor, si es primo e imprimir los primos menores a un numero.
 int main()
 {
-    int unNum = 80,otroNum = 40 ;
+    int unNum = 10,otroNum = 80 ;
     int resultado;
 
     resultado = multiplicacion(unNum, unNum);
@@ -71,8 +106,12 @@ int main()
     cout << "el promedio es: " << resultado << endl;
 
     resultado = divisores(unNum);
+    cout << "\n";
 
-    
+    resultado = menor(unNum, otroNum);
+    cout << "\n";
+
+    primo(27);
    
 }
 
