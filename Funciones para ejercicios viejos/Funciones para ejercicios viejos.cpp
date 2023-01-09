@@ -90,10 +90,11 @@ void primo(int numero) {
     }
 }
 
+
 //Seguir en el minuto 50: me quedan las funciones del indicar el menor, si es primo e imprimir los primos menores a un numero.
 int main()
 {
-    int unNum = 10,otroNum = 80 ;
+    /*int unNum = 10,otroNum = 80 ;
     int resultado;
 
     resultado = multiplicacion(unNum, unNum);
@@ -109,9 +110,9 @@ int main()
     cout << "\n";
 
     resultado = menor(unNum, otroNum);
-    cout << "\n";
+    cout << "\n";*/
 
-    primo(27);
+    primo(6);
    
 }
 
