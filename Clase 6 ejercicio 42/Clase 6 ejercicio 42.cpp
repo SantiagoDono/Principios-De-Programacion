@@ -4,21 +4,24 @@
 using namespace std;
 void ordenar() {
     
-    int ingreso = 0,menor = 0,mayor = 0,cont=0,cantP=0;
+    int ingreso = 0,menor = 0,mayor = 0,cantP=0;
+    bool primero = true;
+
 
     for (int i = 0; i <= 9; i++)
     {
         cout << "ingrese un numero: ";
         cin >> ingreso;
-        if (i == 0) {
+        if (ingreso >=0 and primero == true) {
             menor = ingreso;
             mayor = ingreso;
+            primero = false;
         }else
-            if (ingreso > mayor and ingreso > 0) {
+            if (ingreso > mayor and ingreso >= 0) {
                 mayor = ingreso;
                 cantP++;
             }else
-                if (ingreso < menor and ingreso > 0) {
+                if (ingreso < menor and ingreso >= 0) {
                     menor = ingreso;
                     cantP++;
                 }
